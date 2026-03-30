@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color:rgb(255, 255, 255);
 }
 
@@ -29,6 +31,75 @@ body{
 
 .c2{
     color: gray;
+}
+
+.c3{
+    color:orange;
+}
+
+.c4{
+    color:green;
+}
+
+.cabecalho{
+    background-color:navy;
+    color:white;
+    text-align: right;  
+}
+
+.cabecalho:hover{
+    color: orange;
+}
+
+.locais{
+    display: inline-block;
+    border-top: 3px;
+    padding-top: 5px;
+    background: orange;
+    color:white;
+}
+
+.letra{
+    font-weight: bold;
+}
+
+.secretarias{
+    display: inline-block;
+    border-top: 3px;
+    padding-top: 5px;
+    background: green;
+    color:white;
+}
+
+.topicos{
+    display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px;
+  padding: 0;
+}
+
+.adm{
+    display: inline-block;
+    border-top: 3px;
+    padding-top: 5px;
+    background: green;
+    color:white;
+}
+
+.fcap{
+    display: inline-block;
+    border-top: 3px;
+    padding-top: 5px;
+    background: navy;
+    color:white;
+}
+
+.rodape{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
 }
 
 .c3{
